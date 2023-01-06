@@ -28,4 +28,4 @@ The evaluation of LPIPS can be referred to [here](https://github.com/richzhang/P
 
 ### Acknowledgments
 
-  * This code builds heavily on **[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)**. Thanks for open-sourcing!
+This code builds heavily on **[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)**. Thanks for open-sourcing!
