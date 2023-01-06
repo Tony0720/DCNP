@@ -1,5 +1,5 @@
-probe_path = 'D:\study\机器学习\图像生成\baseline_results\CUFS\SCAGAN\Photo';
-gallery_path = 'D:\study\机器学习\图像生成\baseline_results\CUFS\GroundTruth\Photo';
+probe_path = '.\CUFS\DCNP\Photo';
+gallery_path = '.\CUFS\GroundTruth\Photo';
 
 probe_list = readImageNames(probe_path);
 
