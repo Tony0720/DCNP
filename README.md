@@ -1,31 +1,28 @@
-# Dual-Conditional-Normalization-Pyramid-Network-for-Face-Photo-Sketch-Synthesis
-Dual Conditional Normalization Pyramid Network for Face Photo-Sketch Synthesis
-## DCNP
+# Dual Conditional Normalization Pyramid Network for Face Photo-Sketch Synthesis (DCNP)
 
-Pytorch Code for "Dual Conditional Normalization Pyramid Network for Face Photo-Sketch Synthesis".
+Pytorch Code for "Dual Conditional Normalization Pyramid Network for Face Photo-Sketch Synthesis."
 
-Code is coming soon!
+The code is coming soon!
 
 ### Requirements
 
 + Ubuntu 18.04
 + Anaconda (Python, Numpy, PIL, etc.)
 + PyTorch 1.7.1
-+ torchvision 0.8.2
-
++ TorchVision 0.8.2
 
 ### Results
 
-Our final results can be downloaded [here](https://drive.google.com/file/d/1iLesbjhFp5oYkOTSKzwgO_wUvTZ61Z9-/view?usp=sharing).
+The results of the baseline methods and our method can be downloaded from [Google Drive](https://drive.google.com/file/d/1iLesbjhFp5oYkOTSKzwgO_wUvTZ61Z9-/view?usp=sharing).
 
-### Evaluation
+### Evaluation Metrics
 
-Matlab is requested to compute the FSIM metrics in [compute_fsim.m](https://github.com/Tony0720/Dual-Conditional-Normalization-Pyramid-Network-for-Face-Photo-Sketch-Synthesis/blob/main/compute_fsim.m).
+We provide a [MATLAB code](https://github.com/Tony0720/Dual-Conditional-Normalization-Pyramid-Network-for-Face-Photo-Sketch-Synthesis/blob/main/compute_fsim.m) for calculating the FSIM score.
 
-The evaluation of FID can be referred to [here](https://github.com/mseitzer/pytorch-fid).
+We use a PyTorch code from this [repository](https://github.com/mseitzer/pytorch-fid) to calculate the FID score.
 
-The evaluation of LPIPS can be referred to [here](https://github.com/richzhang/PerceptualSimilarity).
+We use a PyTorch code from this [repository](https://github.com/richzhang/PerceptualSimilarity) to calculate the LPIPS score.
 
 ### Acknowledgments
 
-This code builds heavily on **[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)**. Thanks for open-sourcing!
+This code borrows heavily from the **[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)** repository. Thanks for open-sourcing!
