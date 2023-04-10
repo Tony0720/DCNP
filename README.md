@@ -61,6 +61,9 @@ python test.py
 
 Our final results can be downloaded [here](https://drive.google.com/file/d/1iLesbjhFp5oYkOTSKzwgO_wUvTZ61Z9-/view?usp=sharing).
 
+![photo_synthesis](/imgs/photo_synthesis.png)
+![sketch_synthesis](/imgs/sketch_synthesis.png)
+
 ### Evaluation
 
 Matlab is requested to compute the FSIM metrics in [compute_fsim.m](https://github.com/Tony0720/Dual-Conditional-Normalization-Pyramid-Network-for-Face-Photo-Sketch-Synthesis/blob/main/compute_fsim.m).
