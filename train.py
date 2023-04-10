@@ -15,7 +15,7 @@ from torch.autograd import Variable
 
 # Training settings
 parser = argparse.ArgumentParser(description='Residual Nets')
-parser.add_argument('--dataset', type=str,default='cuhk', help='cuhk')
+parser.add_argument('--dataset', type=str,default='cuhk', help='[cuhk, ar, xmwvts, cuhk_feret, WildSketch]')
 parser.add_argument('--output_path', type=str,default='exp1', help='output path')
 parser.add_argument('--batchSize', type=int, default=1, help='training batch size')
 parser.add_argument('--testBatchSize', type=int, default=1, help='testing batch size')
