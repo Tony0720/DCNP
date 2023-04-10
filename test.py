@@ -9,7 +9,7 @@ from model import BiSeNet
 
 # Testing settings
 parser = argparse.ArgumentParser(description='Residual Nets')
-parser.add_argument('--dataset',type=str,default='cuhk', help='baoji')
+parser.add_argument('--dataset',type=str,default='cuhk', help='[cuhk, ar, xmwvts, cuhk_feret, WildSketch]')
 parser.add_argument('--output_path', type=str,default='exp1', help='output path')
 parser.add_argument('--nepochs', type=int, default=200, help='saved model of which epochs')
 parser.add_argument('--cuda', type=str,default=True,help='use cuda')
