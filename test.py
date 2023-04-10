@@ -4,7 +4,7 @@ import os
 import random
 import torch
 import torchvision.transforms as transforms
-from util import is_image_file, get_facial_label, load_img, save_img
+from util import is_image_file, load_img, save_img
 from model import BiSeNet
 
 # Testing settings
